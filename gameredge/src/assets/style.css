@@ -1,6 +1,14 @@
 /* Global styles */
-body {
+
+
+div#root, html{
   background-color: #292c37;
+}
+
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #saludo {
@@ -17,25 +25,19 @@ body {
   backdrop-filter: blur(10px); 
 }
 
-* {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 img {
   width: 100%;
-  height: auto; /* Mantiene la proporción */
+  height: auto; /* Cambiado a auto para mantener la proporción */
 }
 
-h3 {
+h3.mt-5{
   text-align: center;
   color: #cccccc;
   text-shadow: #000000;
   font-size: 40px;
 }
 
-.card-title {
+h5.card-title {
   color: rgb(165, 163, 163);
   font-size: 25px;
 }
@@ -46,8 +48,9 @@ h3 {
 }
 
 /* Cards */
-.card {
-  margin: 20px; /* Espacio entre las cards */
+div.card {
+  margin: 20px; /* espacio entre las cards */
+  
   text-align: center;
   background-color: #292c37;
   color: black;
@@ -68,26 +71,39 @@ h3 {
 
 .cards {
   display: flex;
-  flex-wrap: wrap; /* Ajusta las cards a diferentes tamaños */
+  flex-wrap: wrap; /* Cambiado para que las cards se ajusten a diferentes tamaños */
   gap: 15px;
-  justify-content: center; /* Centra las cards */
+  justify-content: center;
 }
+
+a.btn.btn-primary{
+  color: #cccccc;
+  background-color: #921018;
+  border: none;
+}
+
+a.btn.btn-primary:hover{
+  background-color: #64080e;
+}
+
 
 /* FOOTER */
-footer {
+
+footer#contacto.mt-5{
   width: 100%;
-  background-color: #292c37;
+  background-color: #1b1d24;
 }
 
-h1 {
+h1.h1-footer, h1.footer-title, h1.redes-footer, h1.contacto-footer{
   color: #cccc;
 }
 
-p {
+p.parrafo-footer{
   color: #cccccc69;
+  margin: 0;
 }
 
-.footer-title {
+h1.footer-title {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
@@ -99,7 +115,7 @@ p {
   font-weight: bold;
 }
 
-div.titles {
+div.titles{
   width: 100%;
   display: flex;
   align-items: center;
@@ -111,6 +127,7 @@ div.titles {
   width: 100%;
   text-align: center;
   margin: 0;
+  margin-bottom: 0;
 }
 
 /* Social and Contact Links */
@@ -142,11 +159,11 @@ div.titles {
   margin-bottom: 10px;
 }
 
-i#wh.fa-brands.fa-whatsapp::before {
+i#wh.fa-brands.fa-whatsapp::before{
   margin-right: 5px;
 }
 
-i#mail.fa-regular.fa-envelope::before {
+i#mail.fa-regular.fa-envelope::before{
   margin-right: 8px;
 }
 
@@ -178,31 +195,34 @@ i#mail.fa-regular.fa-envelope::before {
   background-color: #1b1d24;
 }
 
-#git, #mail, #wh, #li {
+#git, #mail, #wh, #li{
   color: white;
   font-size: 25px;
 }
 
-#ig {
+#ig{
   font-size: 25px;
 }
 
-#li {
+#li{
   background-color: #fff;
   color: #0a66c2;
 }
 
-#ig {
-  background: radial-gradient(
+#ig{
+  
+  background:radial-gradient(
       circle at 33% 100%,
       #fed373 4%,
       #f15245 30%,
       #d92e7f 62%,
       #9b36b7 85%,
-      #515ecf
-  );
-  border-radius: 30%;
+      #515ecf);
+      border-radius: 30%;
 }
+
+
+
 
 #mail {
   color: #ff1500;
@@ -211,6 +231,8 @@ i#mail.fa-regular.fa-envelope::before {
 #wh {
   color: #25d366;
 }
+
+
 
 /* NAVBAR */
 .nav-item {
@@ -221,86 +243,127 @@ i#mail.fa-regular.fa-envelope::before {
   font-size: 20px;
 }
 
-.btn {
+button.btn.btn-outline-succes {
   background-color: #9f111b;
   color: white;
   border-color: #b11623;
 }
 
-.btn:hover {
+button.btn.btn-outline-succes {
   color: #fff;
   background-color: #921018;
   border-color: transparent;
 }
 
-.btn.btn-outline-success:active {
+button.btn.btn-outline-succes {
   background-color: #64080e;
   outline: none;
   border: none;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover{
   background-color: #9f111a3a;
 }
 
-.fa-solid.fa-house {
+.fa-solid.fa-house{
   color: #ff0000;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 30px;
 }
 
-.fa-solid.fa-house:hover {
-  color: rgb(151, 17, 17);
+.fa-solid.fa-house:hover{
+color: rgb(151, 17, 17);
 }
 
-.nav-item.dropdown {
+.nav-item.dropdown{
   margin-left: 40px;
   margin-right: 80px;
 }
 
-.fa-solid.fa-cart-shopping {
+.fa-solid.fa-cart-shopping{
   color: rgb(0, 255, 0);
+
 }
 
-li.nav-item {
+li.nav-item{
   display: flex;
   text-align: center;
 }
 
-.fa-solid.fa-cart-shopping:hover {
+.fa-solid.fa-cart-shopping:hover{
   color: rgb(32, 175, 32);
 }
 
-a.nav-link.dropdown-toggle:hover, .nav-link:hover {
-  color: white;
-}
-
-form.d-flex {
+form.d-flex{
   position: absolute;
   left: 85%;    
 }
 
-input.form-control.me-2 {
+input.form-control.me-2{
   width: 50%;
 }
 
 /* CARRUSEL */
-.carousel.slide {
+.carousel.slide{
+  /* width: 100%; */
   margin-top: 70px;
   margin-right: 190px;
   margin-left: 100px;
   box-shadow: 0 0 50px 10px #000000;
   display: flex;
   align-items: center;
+  margin-top: 100px;
   justify-content: center;
 }
 
-.carousel-item {
+  
+  img {
+  width: 100%;
+  height: 500px;
+  }
+  
+  button.carousel-control-next, button.carousel-control-prev {
+  width: 10%;
+  height: 500px;
+  transition: background-color 0.4s;
+  }
+  
+  button.carousel-control-next {
+  border-bottom-left-radius: 300px;
+  border-top-left-radius: 300px;
+  }
+  
+  button.carousel-control-prev {
+  border-bottom-right-radius: 300px;
+  border-top-right-radius: 300px;
+  }
+  
+  button.carousel-control-next:hover, button.carousel-control-prev:hover {
+  background-color: rgba(0, 0, 0, 0.315);
+  }
+  
+  div.carousel-indicators {
+  background-color: transparent;
+  position: absolute;
+  top: 100%;
+  }
+  
+  span.carousel-control-next-icon, span.carousel-control-prev-icon {
+  background-color: transparent;
+  }
+  
+  span.carousel-control-next-icon:hover, span.carousel-control-prev-icon:hover {
+  background-color: #00000030;
+  border-radius: 20px;
+  }
+
+  .carousel-item{
+  
   box-shadow: 20px 20px 50px 5px #000000;
   border-radius: 10px;
   transition: transform 0.6s ease;
-}
+  }
 
 /* Responsive */
 /* CELULAR */
@@ -328,7 +391,7 @@ input.form-control.me-2 {
       margin-bottom: 20px; /* Espacio abajo del título */
   }
   
-  div.titles {
+  div.titles{
       width: 100%;
       display: flex;
       align-items: center;
@@ -341,10 +404,250 @@ input.form-control.me-2 {
       font-weight: bold;
       margin-top: 30px;
   }
+  
+
+  
+  /* Social and Contact Links */
+  .social-link {
+      display: inline-block;
+      margin: 5px 0; /* Espacio entre los enlaces */
+      text-decoration: none;
+      color: rgb(206, 206, 206);
+  }
+  
+  .social-link i {
+      margin-right: 10px;
+  }
+  
+  .contacto-footer {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .contactanos {
+      text-align: center;
+  }
+  
+  .contact-link {
+      /* color: #cccc; */
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  i#wh.fa-brands.fa-whatsapp::before{
+      margin-right: 5px;
+  }
+
+  i#mail.fa-regular.fa-envelope::before{
+      margin-right: 8px;
+  }
+  
+  .contact-link:last-child {
+      margin-bottom: 0;
+  }
+  
+  /* Footer Icons */
+  .footer-icons {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Alineación de los elementos */
+      margin-bottom: 20px; /* Espacio debajo de los íconos */
+  }
+  
+  .redes {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .redes-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centramos los elementos */
+  }
+  
+  #contacto {
+      background-color: #1b1d24;
+  }
 
   img {
       width: 100%;
       height: auto; /* Asegura la proporción correcta */
+  }
+
+  i#wh.fa-brands.fa-whatsapp::before{
+      text-align: start;
+  }
+  
+  i#mail.fa-regular.fa-envelope::before{
+      text-align: start;
+  }
+  /* Carousel */
+.carousel.slide {
+  margin-top: 70px;
+  margin-right: 0; /* Ajuste a 0 si es necesario */
+  margin-left: 0; /* Ajuste a 0 si es necesario */
+  box-shadow: 0 0 50px 10px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+button.carousel-control-next, button.carousel-control-prev {
+  width: 20%;
+  height: 100%;
+  transition: background-color 0.4s;
+}
+
+button.carousel-control-next {
+  border-bottom-left-radius: 300px;
+  border-top-left-radius: 300px;
+}
+
+button.carousel-control-prev {
+  border-bottom-right-radius: 300px;
+  border-top-right-radius: 300px;
+}
+
+button.carousel-control-next:hover, button.carousel-control-prev:hover {
+  background-color: rgba(0, 0, 0, 0.315);
+}
+
+div.carousel-indicators {
+  background-color: transparent;
+  position: absolute;
+  top: 100%;
+}
+
+span.carousel-control-next-icon, span.carousel-control-prev-icon {
+  background-color: transparent;
+}
+
+span.carousel-control-next-icon:hover, span.carousel-control-prev-icon:hover {
+  background-color: #00000030;
+  border-radius: 20px;
+}
+
+.fa-solid.fa-cart-shopping{
+  color: rgb(0, 255, 0);
+  position:absolute; 
+  left: 94%;
+  top: 81%;
+}
+}
+
+/* Media Query para TABLET */
+@media screen and (min-width: 902px) and (max-width: 991px) {
+  .card {
+      width: calc(50% - 40px); /* Dos cards por fila */
+  }
+
+  footer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      color: rgb(165, 163, 163);
+      padding: 30px 50px; /* Ajuste en el padding */
+      background-color: #1b1d24; /* Fondo para el footer */
+  }
+
+  div.titles {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .footer-title {
+      font-size: 30px; /* Tamaño de fuente reducido */
+      font-weight: bold;
+      margin-bottom: 20px; /* Espacio abajo del título */
+  }
+
+  .h1-footer {
+      font-size: 30px; /* Tamaño de fuente reducido */
+      font-weight: bold;
+  }
+
+  /* Social and Contact Links */
+  .social-link {
+      display: inline-block;
+      margin: 5px 0; /* Espacio entre los enlaces */
+      text-decoration: none;
+      color: rgb(206, 206, 206);
+  }
+
+  .social-link i {
+      margin-right: 10px;
+  }
+
+  .contacto-footer {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .contactanos {
+      text-align: center;
+      margin: 0; /* Eliminamos el margen para mejor alineación */
+  }
+
+  .contact-link {
+      color: #cccc;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  i#wh.fa-brands.fa-whatsapp::before {
+      margin-right: 5px;
+      text-align: start;
+  }
+
+  i#mail.fa-regular.fa-envelope::before {
+      margin-right: 8px;
+      text-align: start;
+  }
+
+  .contact-link:last-child {
+      margin-bottom: 0;
+  }
+
+  /* Footer Icons */
+  .footer-icons {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 20px;
+  }
+
+  .redes {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .redes-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centramos los elementos */
+  }
+
+  #contacto {
+      background-color: #1b1d24;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
   }
 
   /* Carousel */
@@ -394,5 +697,19 @@ input.form-control.me-2 {
   }
 
   span.carousel-control-next-icon:hover, span.carousel-control-prev-icon:hover {
-      background-color: #000
-  }}
+      background-color: #00000030;
+      border-radius: 20px;
+  }
+
+  .fa-solid.fa-cart-shopping {
+      color: rgb(0, 255, 0);
+      position: absolute;
+      left: 94%;
+      top: 81%;
+  }
+}
+
+form.d-flex{
+  position: relative;
+  left: 0%;    
+}

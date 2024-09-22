@@ -1,7 +1,0 @@
-[
-    { "id": 1, "name": "Internal Product 1", "category": "Electronics", "price": 29.99 },
-    { "id": 2, "name": "Internal Product 2", "category": "Clothing", "price": 49.99 },
-    { "id": 3, "name": "Internal Product 3", "category": "Sports", "price": 19.99 },
-    { "id": 4, "name": "Internal Product 4", "category": "Beauty", "price": 9.99 }
-  ]
-  
