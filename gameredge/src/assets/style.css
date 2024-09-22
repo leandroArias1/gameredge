@@ -25,6 +25,12 @@ div#root, html{
   backdrop-filter: blur(10px); 
 }
 
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 img {
   width: 100%;
   height: auto; /* Cambiado a auto para mantener la proporción */
@@ -48,9 +54,8 @@ h5.card-title {
 }
 
 /* Cards */
-div.card {
-  margin: 20px; /* espacio entre las cards */
-  
+.card {
+  margin: 20px; /* Espacio entre las cards */
   text-align: center;
   background-color: #292c37;
   color: black;
@@ -130,7 +135,7 @@ div.titles{
   margin-bottom: 0;
 }
 
-/* Social and Contact Links */
+
 .social-link {
   display: inline-block;
   margin: 5px 0;
@@ -171,7 +176,7 @@ i#mail.fa-regular.fa-envelope::before{
   margin-bottom: 0;
 }
 
-/* Footer Icons */
+
 .footer-icons {
   display: flex;
   flex-wrap: wrap;
@@ -234,7 +239,7 @@ i#mail.fa-regular.fa-envelope::before{
 
 
 
-/* NAVBAR */
+
 .nav-item {
   font-size: 24px;
 }
@@ -305,8 +310,7 @@ input.form-control.me-2{
 }
 
 /* CARRUSEL */
-.carousel.slide{
-  /* width: 100%; */
+.carousel.slide {
   margin-top: 70px;
   margin-right: 190px;
   margin-left: 100px;
@@ -365,11 +369,10 @@ input.form-control.me-2{
   transition: transform 0.6s ease;
   }
 
-/* Responsive */
-/* CELULAR */
+
 @media screen and (max-width: 901px) {
   .card {
-      width: calc(100% - 40px); /* Full width with margin */
+      width: calc(100% - 40px); 
       margin: 20px;
   }
 
@@ -380,15 +383,15 @@ input.form-control.me-2{
       justify-content: space-between;
       text-align: center;
       color: rgb(165, 163, 163);
-      padding: 30px 50px; /* Ajuste en el padding */
-      background-color: #1b1d24; /* Fondo para el footer */
+      padding: 30px 50px; 
+      background-color: #1b1d24; 
   }
   
   .footer-title {
       text-align: center;
-      font-size: 30px; /* Tamaño de fuente reducido */
+      font-size: 30px; 
       font-weight: bold;
-      margin-bottom: 20px; /* Espacio abajo del título */
+      margin-bottom: 20px; 
   }
   
   div.titles{
@@ -400,7 +403,7 @@ input.form-control.me-2{
   }
 
   .h1-footer {
-      font-size: 30px; /* Tamaño de fuente reducido */
+      font-size: 30px; 
       font-weight: bold;
       margin-top: 30px;
   }
@@ -653,8 +656,8 @@ span.carousel-control-next-icon:hover, span.carousel-control-prev-icon:hover {
   /* Carousel */
   .carousel.slide {
       margin-top: 70px;
-      margin-right: 0; /* Ajuste a 0 si es necesario */
-      margin-left: 0; /* Ajuste a 0 si es necesario */
+      margin-right: 0; 
+      margin-left: 0; 
       box-shadow: 0 0 50px 10px #000000;
       display: flex;
       align-items: center;
@@ -663,7 +666,7 @@ span.carousel-control-next-icon:hover, span.carousel-control-prev-icon:hover {
 
   .carousel-inner img {
       width: 100%;
-      height: auto; /* Mantiene la proporción de la imagen */
+      height: auto; 
   }
 
   button.carousel-control-next, button.carousel-control-prev {

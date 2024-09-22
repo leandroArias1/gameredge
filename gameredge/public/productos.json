@@ -1,0 +1,587 @@
+[
+    {"id": 1, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR8.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR9.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR10.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Auricular", 
+    "imagenURL": "../assets/img/AURICULAR15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO8.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO9.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO10.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Teclado", 
+    "imagenURL": "../assets/img/TECLADO15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE8.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE9.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE10.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse", 
+    "imagenURL": "../assets/img/MOUSE15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Microfono", 
+    "imagenURL": "../assets/img/MIRCROFONO1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Microfono", 
+    "imagenURL": "../assets/img/MIRCROFONO2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Microfono", 
+    "imagenURL": "../assets/img/MIRCROFONO3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Microfono", 
+    "imagenURL": "../assets/img/MIRCROFONO4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Microfono", 
+    "imagenURL": "../assets/img/MIRCROFONO5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Microfono", 
+    "imagenURL": "../assets/img/MIRCROFONO6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Microfono", 
+    "imagenURL": "../assets/img/MIRCROFONO7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR8.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR9.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR10.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Monitor", 
+    "imagenURL": "../assets/img/MONITOR15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD8.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD9.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD10.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 1, 
+    "nombre": "Joystick", 
+    "imagenURL": "../assets/img/MOUSEPAD11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    ,
+    {"id": 1, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    ,
+    {"id": 1, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 3, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Mouse Pad", 
+    "imagenURL": "../assets/img/MOUSEPAD15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    
+]
