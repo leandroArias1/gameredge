@@ -11,51 +11,21 @@
 </head>
 <body> 
     <header>
-        <div class="nav-container">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Gamer's Edge</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html"><i class="fa-solid fa-house"></i></a>
-                </li>
-                
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Productos
-                    </a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../Mouse/mouse.html">Mouse</a></li>
-                    <li><a class="dropdown-item" href="../Teclado/teclado.html">Teclado</a></li>
-                    <li><a class="dropdown-item" href="../Auriculares/auriculares.html">Auriculares</a></li>
-                    <li><a class="dropdown-item" href="../Mousepad/mousepad.html">Mouse Pad</a></li>
-                    <li><a class="dropdown-item" href="../Joystick/joystick.html">Joystick</a></li>
-                    <li><a class="dropdown-item" href="../Monitor/monitor.html">Monitor</a></li>
-                    <li><a class="dropdown-item" href="/juegos/juegos.html">Juegos</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Formulario/form.html">Agregar productos</a>
-                </li>
-                
-                </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-                <li class="nav-item">
-                    <div class="cart">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                    </div>
-                </li>
+        <nav className="navbar">
+            <div className="navbar-brand"><a className='title' href="/">Gamer's Edge</a></div>
+            <div className="navbar-links">
+              <ul>
+                  <li><Link to="/">Inicio</Link></li>
+                  <li><Link to="./Perifericos">Perifericos</Link></li>
+                  <li><Link to="./Juegos">Videojuegos</Link></li>
+                  <li><Link to="./Formulario">Administrador</Link></li>
+              </ul>
             </div>
-            </div>
-        </nav>
-        </div>
+            <form className="search-form">
+              <input type="text" placeholder="Buscar..." className="search-input" />
+              <button type="submit" className="search-button">Buscar</button>
+            </form>
+          </nav>
     </header>
 
     

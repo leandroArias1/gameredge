@@ -1,19 +1,18 @@
+import React from 'react';
 import NavBar from './Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom';
 import Public from '../Routes/Public'
 import '../assets/style.css';
 
 
 function App() {
   return (
-   <>
-   <Router>
+   <BrowserRouter>
 
     <NavBar/>
     <Public/>
     
-   </Router>
-   </>
+   </BrowserRouter>
   );
 }
 

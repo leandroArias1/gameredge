@@ -23,9 +23,9 @@ const Navbar = () => {
       <div className="navbar-links">
         <ul>
             <li><Link to="/">Inicio</Link></li>
-            <li><Link to="./Perifericos">Perifericos</Link></li>
-            <li><Link to="./Juegos">Videojuegos</Link></li>
-            <li><Link to="./Formulario">Administrador</Link></li>
+            <li><Link to="/perifericos">Perifericos</Link></li>
+            <li><Link to="/juegos">Videojuegos</Link></li>
+            <li><Link to="/formulario">Administrador</Link></li>
         </ul>
       </div>
       <form className="search-form">

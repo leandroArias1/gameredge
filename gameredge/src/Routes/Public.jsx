@@ -3,6 +3,7 @@ import Home from '../pages/Home';
 import Juegos from '../pages/Juegos'
 import Perifericos from '../pages/Perifericos'
 import Formulario from '../pages/Formulario'
+
 function Public (){
     return(
         <Routes>
