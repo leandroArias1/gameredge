@@ -6,14 +6,13 @@ import '../assets/style.css';
 
 function App() {
   return (
-   <>
-   <Router>
-
+    <>
+    <Router>
     <NavBar/>
     <Public/>
     
-   </Router>
-   </>
+    </Router>
+    </>
   );
 }
 

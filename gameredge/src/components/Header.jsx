@@ -1,39 +1,26 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import { Link } from 'react-router-dom';
+import '../assets/header.css';
         
-        function NavScrollExample() {
-            return (
-            <Navbar expand="lg" className="bg-body-tertiary">
-                <Container fluid>
-                <Navbar.Brand href="#">Gamer's Edge</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-                    <Nav
-                    className="me-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px' }}
-                    navbarScroll
-                    >
-                    <Nav.Link href="#action1">Perifericos</Nav.Link>
-                    <Nav.Link href="#action2">Juegos</Nav.Link>
+const Header = () => {
+    return (
+        <nav className="navbar">
+            <div className="navbar-brand">
+                <a className='title' href="/">Gamer's Edge</a>
+            </div>
+            <div className="navbar-links">
+                <ul>
+                    <li><Link to="/">Inicio</Link></li>
+                    <li><Link to="/Perifericos">Periféricos</Link></li>
+                    <li><Link to="/Juegos">Videojuegos</Link></li>
+                    <li><Link to="/Formulario">Administrador</Link></li>
+                </ul>
+            </div>
+            <form className="search-form">
+                <input type="text" placeholder="Buscar..." className="search-input" />
+                <button type="submit" className="search-button">Buscar</button>
+            </form>
+        </nav>
+    );
+};
 
-                    </Nav>
-                    <Form className="d-flex">
-                    <Form.Control
-                        type="search"
-                        placeholder="Buscar"
-                        className="me-2"
-                        aria-label="Search"
-                    />
-                    <Button variant="outline-success">Buscar</Button>
-                    </Form>
-                </Navbar.Collapse>
-                </Container>
-            </Navbar>
-            );
-        }
-        
-        export default NavScrollExample;
+export default Header;
