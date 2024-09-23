@@ -1,0 +1,10 @@
+.carousel-item{
+    
+    box-shadow: 20px 20px 50px 5px #000000;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+    }
+
+button.carousel-control-next, button.carousel-control-prev{
+    margin: 0;
+}

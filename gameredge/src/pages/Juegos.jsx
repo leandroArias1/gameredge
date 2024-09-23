@@ -1,14 +1,14 @@
 import React from 'react';
 import '../assets/style.css';
 import Footer from '../components/Footer';
-import NavBar from '../components/Navbar';
+import Header from '../components/Header';
 import ProductList from '../components/ProductList';
 
 const Juegos = () => {
   return (
     <div>
 
-      <NavBar />
+      <Header />
       <ProductList />
       <Footer />
 

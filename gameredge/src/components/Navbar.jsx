@@ -10,7 +10,7 @@ function Navbar({onBuscar}) {
                 placeholder="Buscar Periféricos"
                 onChange={(e) => onBuscar(e.target.value)}
             />
-            <button onClick={() => onBuscar('')}>Limpiar</button>
+            <button className='clear' onClick={() => onBuscar('')}>Limpiar</button>
         </nav>
     );
 }

@@ -74,6 +74,10 @@ div.card {
   height: 280px;
 }
 
+.card-img-topp {
+  height: 280px;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap; /* Cambiado para que las cards se ajusten a diferentes tamaños */

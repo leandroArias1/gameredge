@@ -2,7 +2,7 @@ import '../assets/perifericos.css';
 import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import ListaProductos from '../components/ListaProductos';
-import  Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 
 const Perifericos = () => {

@@ -68,9 +68,8 @@ button {
 }
 
 .card-img-top {
-    height: auto; /* Auto height for images */
-    object-fit: cover; /* Cover to maintain aspect ratio */
-    width: 100%; /* Full width of card */
+    height: auto;
+    /* object-fit: cover; Cover to maintain aspect ratio */
 }
 
 .card h2 {
@@ -87,6 +86,17 @@ button {
 
 p.precio {
     color: rgba(0, 255, 0, 0.795);
+}
+
+button.clear{
+    background-color: #9f111b;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+
+button.clear:hover{
+    background-color: #850e16;
 }
 
 /* Responsive styles */

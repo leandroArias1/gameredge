@@ -44,7 +44,7 @@
 
   img.card-img-top{
     height: 450px;
-    width: 750px;
+    width: 100%;
   }
 
   p.price{

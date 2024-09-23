@@ -14,7 +14,7 @@ const Destacados = () => {
                     { imgSrc: "./img/MOUSEPAD7.jpg", title: "Teclado mecanico", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum." }
                 ].map((product, index) => (
                     <div className="card" style={{ width: '18rem' }} key={index}>
-                        <img src={product.imgSrc} className="card-img-top" alt={product.title} />
+                        <img src={product.imgSrc} className="card-img-topp" alt={product.title} />
                         <div className="card-body">
                             <h5 className="card-title">{product.title}</h5>
                             <p className="card-text">{product.text}</p>

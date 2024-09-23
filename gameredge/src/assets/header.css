@@ -20,10 +20,12 @@ a.title{
     top: 20%;
     text-decoration: none;
     color: aliceblue;
+    text-shadow: 0 5px 15px #000000;
 }
 
 
 .navbar-links a {
+  margin-top: 15px;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -88,6 +90,7 @@ ul{
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 0.5rem;
+    margin-top: 50px;
   }
 
   .search-input:focus{
