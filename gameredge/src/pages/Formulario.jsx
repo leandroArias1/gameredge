@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar } from "react-bootstrap";
 import Footer from '../components/Footer'
+import Header  from '../components/Header'
+
 
 const Formulario = () => {
   const [form, setForm] = useState({
@@ -24,7 +26,7 @@ const Formulario = () => {
 
   return (
     <>
-    <Navbar />
+    <Header />
 
 <div className="form-container">
 <h1 className="title-form">AGREGAR PRODUCTOS</h1>

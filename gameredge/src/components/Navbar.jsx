@@ -16,28 +16,6 @@ function Navbar({onBuscar}) {
 }
 
 
-<<<<<<< HEAD
-const Navbar = () => {
-  return (
-    <nav className="navbar">
-      <div className="navbar-brand"><a className='title' href="/">Gamer's Edge</a></div>
-      <div className="navbar-links">
-        <ul>
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/perifericos">Perifericos</Link></li>
-            <li><Link to="/juegos">Videojuegos</Link></li>
-            <li><Link to="/formulario">Administrador</Link></li>
-        </ul>
-      </div>
-      <form className="search-form">
-        <input type="text" placeholder="Buscar..." className="search-input" />
-        <button type="submit" className="search-button">Buscar</button>
-      </form>
-    </nav>
-  );
-};
-=======
 
->>>>>>> af249d2df4a810aebaa0122f5001bb31d7c50847
 
 export default Navbar;

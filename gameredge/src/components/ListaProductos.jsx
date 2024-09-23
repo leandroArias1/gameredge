@@ -8,7 +8,8 @@ const ListaProductos = ({ productos }) => {
                         <img className='card-img-top' src={producto.imageURL} alt={producto.nombre} />
                         <h2>{producto.nombre}</h2>
                         <p>{producto.descripcion}</p>
-                        <p>{producto.precio}</p>
+                        <p className='precio'> PRECIO: ${producto.precio}</p>
+
                     </div>
                 ))
             ) : (

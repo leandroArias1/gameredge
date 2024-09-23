@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    margin-top: 60px;
+    margin-top: 100px;
     text-align: center;
     color: white;
 }
@@ -59,7 +59,7 @@ button {
     box-shadow: 0 0 50px #000; /* Shadow effect */
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s; /* Transition effects */
-    width: calc(20% - 40px); /* 4 cards per row with margin */
+    width: calc(25% - 4px); /* 4 cards per row with margin */
 }
 
 .card:hover {
@@ -83,6 +83,10 @@ button {
     margin: 5px 0;
     color: #fff;
      /* Change text color to white */
+}
+
+p.precio {
+    color: rgba(0, 255, 0, 0.795);
 }
 
 /* Responsive styles */

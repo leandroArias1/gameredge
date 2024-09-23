@@ -1,9 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/style.css';
-<<<<<<< HEAD
 import { Carousell } from 'react-bootstrap';
-=======
->>>>>>> af249d2df4a810aebaa0122f5001bb31d7c50847
 
 
 

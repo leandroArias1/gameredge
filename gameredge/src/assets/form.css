@@ -109,8 +109,9 @@ label{
 }
 
 .productL{
-    position: absolute;
+    text-align: center;
     bottom: 78%;
+    color: white;
 }
 
 .categoryL{
