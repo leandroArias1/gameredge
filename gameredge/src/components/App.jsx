@@ -1,18 +1,20 @@
-import './App.css';
-import Navbar from './Navbar';
+import '../assets/style.css';
+import Header  from './Header';
 import Carousel from './Carousel';
-import Destacados from './Destacados';
+import Destacados from './destacados';
 import Footer from './Footer';
 
-const App = () => {
+function  App() {
   return (
-    <div className="App">
-        <Navbar />
-        <Carousel />
-        <Destacados />
-        <Footer />
-    </div>
+    <>
+
+      <Header />
+      <Carousel />
+      <Destacados />
+      <Footer />
+
+      </>
   );
-};
+}
 
 export default App;
