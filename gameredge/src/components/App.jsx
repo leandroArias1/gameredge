@@ -1,18 +1,19 @@
+import NavBar from './Navbar';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Public from '../Routes/Public'
 import '../assets/style.css';
-import Header  from './Header';
-import Carousel from './Carousel';
-import Destacados from './destacados';
-import Footer from './Footer';
 
-function  App() {
+
+function App() {
   return (
+   <>
+   <Router>
 
-    <div className="App">
-        <Navbar />
-        <Carousel />
-        <Destacados />
-        <Footer />
-    </div>
+    <NavBar/>
+    <Public/>
+    
+   </Router>
+   </>
   );
 }
 
