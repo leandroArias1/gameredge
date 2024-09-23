@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/style.css';
 
 const Footer = () => {
+    
     return ( 
         <footer id="contacto" className="mt-5">
         <div className="titles text-center">
@@ -20,6 +21,7 @@ const Footer = () => {
             <h1 className="contacto-footer">Contactanos</h1>
             <a href="#" className="contact-link"><i className="fa-brands fa-whatsapp" id="wh"></i>+54 9 11 9999-0000</a>
             <a href="#" className="contact-link"><i className="fa-regular fa-envelope" id="mail"></i>GamersEdge@gmail.com</a>
+            
             </div>
         </div>
         <div className="Copyright text-center">

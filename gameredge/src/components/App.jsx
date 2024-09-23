@@ -1,14 +1,19 @@
 import '../assets/style.css';
 import Header  from './Header';
 import Carousel from './Carousel';
-import Destacados from './destacados';
+import Destacados from './Destacados';
 import Footer from './Footer';
 
-function  App() {
+
+
+
+const  App = () => {
+  
   return (
 
     <div className="App">
-        <Navbar />
+
+        <Header />
         <Carousel />
         <Destacados />
         <Footer />
