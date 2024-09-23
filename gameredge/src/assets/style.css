@@ -54,7 +54,7 @@ h5.card-title {
 }
 
 /* Cards */
-.card {
+div.card {
   margin: 20px; /* Espacio entre las cards */
   text-align: center;
   background-color: #292c37;
