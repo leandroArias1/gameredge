@@ -1,0 +1,236 @@
+[
+    {"id": 1, 
+    "nombre": "Auriculares Logitech Astro A50 Wireless", 
+    "imageURL": "./img/AURICULAR1.jpg"
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 2, 
+    "nombre": "Auriculares ASUS ROG Theta 7.1", 
+    "imageURL": "./img/AURICULAR2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 4, 
+    "nombre": "Auriculares HyperX Cloud 2", 
+    "imageURL": "./img/AURICULAR4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 5, 
+    "nombre": "Auriculares ASUS TUF H1 Gaming 7.1 Wireless", 
+    "imageURL": "./img/AURICULAR5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 6, 
+    "nombre": "Auriculares Redragon Zeus X H510 Wireless", 
+    "imageURL": "./img/AURICULAR6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Auricular de alta calidad"
+    },
+    {"id": 16, 
+    "nombre": "Teclado Mecanico Logitech PRO X RGB TKL Wireless", 
+    "imageURL": "./img/TECLADO1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 17, 
+    "nombre": "Teclado Mecanico Logitech Aurora G715 Wireless", 
+    "imageURL": "./img/TECLADO2.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 18, 
+    "nombre": "Teclado Logitech MX Key Graphite VC", 
+    "imageURL": "./img/TECLADO3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 19, 
+    "nombre": "Teclado Mecanico ASUS ROG XA08 Flare II", 
+    "imageURL": "./img/TECLADO4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 24, 
+    "nombre": "Teclado Mecanico Logitech POP Coral Rose", 
+    "imageURL": "./img/TECLADO9.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 26, 
+    "nombre": "Teclado Logitech K950 Signature Slim Graphite ", 
+    "imageURL": "./img/TECLADO11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 27, 
+    "nombre": "Teclado Mecanico Redragon Horus K621W", 
+    "imageURL": "./img/TECLADO12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 28, 
+    "nombre": "Teclado Mecanico Redragon Draconic K530W", 
+    "imageURL": "./img/TECLADO13.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 29, 
+    "nombre": "Teclado Mecanico Redragon Fizz Pro K616", 
+    "imageURL": "./img/TECLADO14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 30, 
+    "nombre": "Teclado Mecanico Redragon Kumara K552", 
+    "imageURL": "./img/TECLADO15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Teclado de alta calidad"
+    },
+    {"id": 33, 
+    "nombre": "Mouse Redragon Cobra M711 FPS", 
+    "imageURL": "./img/MOUSE3.jpg" ,
+    "precio": 300, 
+    "descripcion": "Mouse de alta calidad"
+    },
+    {"id": 38, 
+    "nombre": "Mouse Redragon Centrophorus M601 RGB", 
+    "imageURL": "./img/MOUSE8.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 39, 
+    "nombre": "Mouse Logitech M100 Gris USB", 
+    "imageURL": "./img/MOUSE9.jpg" ,
+    "precio": 400, 
+    "descripcion": "Mouse de alta calidad"
+    },
+    {"id": 40, 
+    "nombre": "Mouse Gamer XPG INFAREX M20 Optical", 
+    "imageURL": "./img/MOUSE10.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 41, 
+    "nombre": "Mouse Logitech POP Wireless", 
+    "imageURL": "./img/MOUSE11.jpg" 
+    ,"precio": 100, 
+    "descripcion": "Mouse de alta calidad"
+    },
+    {"id": 44, 
+    "nombre": "Mouse Logitech G403 Hero Sensor 16K RGB", 
+    "imageURL": "./img/MOUSE14.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Mouse de alta calidad"
+    },
+    {"id": 46, 
+    "nombre": "Microfono Logitech Blue Yeticaster PRO Blackout USB", 
+    "imageURL": "./img/MICROFONO1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Microfono de alta calidad"
+    },
+    {"id": 48, 
+    "nombre": "Microfono Logitech Yeti GX RGB Lightsync", 
+    "imageURL": "./img/MICROFONO3.jpg" ,
+    "precio": 300, 
+    "descripcion": "Microfono de alta calidad"
+    },
+    {"id": 50, 
+    "nombre": "Microfono Logitech Blue Snowball ICE White USB", 
+    "imageURL": "./img/MICROFONO5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Microfono de alta calidad"
+    },
+    {"id": 54, 
+    "nombre": "Monitor LG 20MK400H-B 20' TN VGA HDMI VGA HDMI", 
+    "imageURL": "./img/MONITOR2.jpg" ,
+    "precio": 200, 
+    "descripcion": "Monitor de alta calidad"
+    },
+    {"id": 55, 
+    "nombre": "Monitor LG 22MP410-B 22' Full HD 75Hz VA FreeSync HDMI", 
+    "imageURL": "./img/MONITOR3.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 56, 
+    "nombre": "Monitor Gamer Samsung Odyssey G3 32' FHD 165Hz", 
+    "imageURL": "./img/MONITOR4.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 57, 
+    "nombre": "Monitor Curvo Samsung 24' Essential S3 FHD 1800R 75Hz", 
+    "imageURL": "./img/MONITOR5.jpg" ,
+    "precio": 500,
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 58, 
+    "nombre": "Monitor Gamer Curvo LG 34' UltraWide", 
+    "imageURL": "./img/MONITOR6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 59, 
+    "nombre": "Monitor Gamer LG 32' UltraWide", 
+    "imageURL": "./img/MONITOR7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 67, 
+    "nombre": "Monitor Gamer Samsung Odyssey G4 25' 240Hz IPS Full HD GSync", 
+    "imageURL": "./img/MONITOR15.jpg" ,
+    "precio": 500,
+    "descripcion":  "Monitor de alta calidad"
+    },
+    {"id": 68, 
+    "nombre": "Mouse Pad Redragon Flick L P031 400x450mm", 
+    "imageURL": "./img/MOUSEPAD1.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 73, 
+    "nombre": "Mouse Pad Compra Gamer Grunge Grafiti XL 920x420mm", 
+    "imageURL": "./img/MOUSEPAD6.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 74, 
+    "nombre": "Mouse Pad Cougar Arena Black XL 800mm x 300mm", 
+    "imageURL": "./img/MOUSEPAD7.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 75, 
+    "nombre": "Mouse Pad Redragon Kunlun Large P006 XL 880x420mm", 
+    "imageURL": "./img/MOUSEPAD8.jpg" ,
+    "precio": 300, 
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 76, 
+    "nombre": "Mouse Pad Cougar Arena Black XL 800mm x 300mm", 
+    "imageURL": "./img/MOUSEPAD9.jpg" ,
+    "precio": 400, 
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 77, 
+    "nombre": "Mouse Pad Corsair MM300 PRO Premium Medium 360x300mm", 
+    "imageURL": "./img/MOUSEPAD10.jpg" ,
+    "precio": 500,
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 78, 
+    "nombre": "Mouse Pad Logitech Hone Ace NC17 XXL 900x400mm", 
+    "imageURL": "./img/MOUSEPAD11.jpg" 
+    ,"precio": 100, 
+    "descripcion":  "Mouse Pad de alta calidad"
+    },
+    {"id": 79, 
+    "nombre": "Mouse Pad Corsair MM380 PRO Premium Medium 360x300mm", 
+    "imageURL": "./img/MOUSEPAD12.jpg" ,
+    "precio": 200, 
+    "descripcion":  "Mouse Pad de alta calidad"
+    }
+]

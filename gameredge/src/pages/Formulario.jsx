@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar } from "react-bootstrap";
 import Footer from '../components/Footer'
 
-const Admin = () => {
+const Formulario = () => {
   const [form, setForm] = useState({
     product: "",
     brand: "",
@@ -110,4 +110,4 @@ const Admin = () => {
 );
 };
 
-export default Admin;
+export default Formulario;
