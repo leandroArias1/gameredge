@@ -1,7 +1,7 @@
 import '../assets/perifericos.css';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
-function CustomNavbar({onBuscar}) {
+function Navbar({onBuscar}) {
     return (
         <nav>
             <h1>Periféricos</h1>
@@ -12,10 +12,11 @@ function CustomNavbar({onBuscar}) {
             />
             <button onClick={() => onBuscar('')}>Limpiar</button>
         </nav>
-    )
+    );
 }
 
 
+<<<<<<< HEAD
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -35,5 +36,8 @@ const Navbar = () => {
     </nav>
   );
 };
+=======
+
+>>>>>>> af249d2df4a810aebaa0122f5001bb31d7c50847
 
 export default Navbar;

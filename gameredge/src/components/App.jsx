@@ -7,12 +7,22 @@ import '../assets/style.css';
 
 function App() {
   return (
+<<<<<<< HEAD
    <BrowserRouter>
 
     <NavBar/>
     <Public/>
     
    </BrowserRouter>
+=======
+    <>
+    <Router>
+    <NavBar/>
+    <Public/>
+    
+    </Router>
+    </>
+>>>>>>> af249d2df4a810aebaa0122f5001bb31d7c50847
   );
 }
 
