@@ -1,11 +1,10 @@
 import '../assets/style.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './Navbar';
+import Header  from './Header';
 import Carousel from './Carousel';
-import Destacados from './Destacados';
+import Destacados from './destacados';
 import Footer from './Footer';
 
-const App = () => {
+function  App() {
   return (
 
     <div className="App">
@@ -15,6 +14,6 @@ const App = () => {
         <Footer />
     </div>
   );
-};
+}
 
 export default App;
